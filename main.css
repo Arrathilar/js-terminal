@@ -66,7 +66,7 @@ h4 {
     color: #1d252c;
 }
 
-.page {
+.window {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     border-top-left-radius: 6px;
@@ -75,7 +75,7 @@ h4 {
     margin: auto;
     top: 50px;
 }
-.page .titlebar {
+.window .titlebar {
     background-color: #ededed;
     height: 44px;
     border-top-left-radius: 6px;
@@ -83,23 +83,23 @@ h4 {
     padding: 16px;
     box-sizing: border-box;
 }
-.page .titlebar .dot {
+.window .titlebar .dot {
     width: 12px;
     height: 12px;
     background-color: #ccc;
     display: inline-block;
     border-radius: 50%;
 }
-.page .titlebar .dot.close {
+.window .titlebar .dot.close {
     background-color: #ef6866;
 }
-.page .titlebar .dot.minimise {
+.window .titlebar .dot.minimise {
     background-color: #f5ed49;
 }
-.page .titlebar .dot.maximise {
+.window .titlebar .dot.maximise {
     background-color: #89c665;
 }
-.page .titlebar .dot + .dot {
+.window .titlebar .dot + .dot {
     margin-left: 7px;
 }
   
