@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 html {
-  padding: 1em;
+  padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
 }
 
 * {
@@ -133,6 +139,11 @@ pre {
 .terminal-console{
 	color: white;
 	padding: 0 1em 0 1em;
+}
+
+.term {
+    height: 410px;
+    overflow: auto;
 }
 
 #typed6 {
