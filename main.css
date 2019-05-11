@@ -49,6 +49,23 @@ pre {
     grid-template-columns: 2.2em auto;
 }
 
+.term span {
+    color: #35cc61
+}
+
+.term {
+    padding: 10px;
+}
+
+h4 {
+    position: relative;
+    width: max-content;
+    margin: 0;
+    float: right;
+    background: none;
+    color: #1d252c;
+}
+
 .page {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
