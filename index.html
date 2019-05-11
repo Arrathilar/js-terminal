@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="main.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="terminal-border">
+                <div class="terminal-window">
+                    <div class="terminal-title">
+                        <div class="terminal-title-btn">
+                            <span class="btn-close">•</span>
+                            <span class="btn-mini">•</span>
+                            <span class="btn-max">•</span>
+                        </div>
+                        <div class="terminal-title-label">arrathilar@arrathilar-Desktop:~</div>
+                        <div></div>
+                    </div>
+                    <div class="terminal-console">
+                        <div class='term'>
+                            <div id='prev'>
+                            </div>
+                            <div class='input'>
+                                <span>~ $</span> <input id='prompt' type='text' onkeypress='keyPressed()'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
