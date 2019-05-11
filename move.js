@@ -1,5 +1,5 @@
 
-const windowElement = document.getElementById('title');
+const windowElement = document.getElementById('window');
 
 windowElement.onmousedown = function(e) { 
 
@@ -20,6 +20,7 @@ windowElement.onmousedown = function(e) {
   document.onmousemove = function(e) {
     moveAt(e);
   }
+
 
   windowElement.onmouseup = function() {
     document.onmousemove = null;
