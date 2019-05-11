@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 html {
-  padding: 0px;
+    padding: 0px;
 }
 
 body {
@@ -10,46 +10,46 @@ body {
 }
 
 * {
-  background: #1d252c;
-  color: #fff;
-  font-family: IBM Plex Mono;
+    background: #1d252c;
+    color: #fff;
+    font-family: IBM Plex Mono;
 }
 
 #prompt {
-  background: #1d252c;
-  border: none;
-  color: rgba(255, 255, 255, 0.75);
-  font-weight: bold;
+    background: #1d252c;
+    border: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
 }
 
 #prompt::before {
-  content: "~ $";
+    content: "~ $";
 }
 
 .err {
-  color: #c3707d;
+    color: #c3707d;
 }
 
 .ok {
-  color: #35cc61;
+    color: #35cc61;
 }
 
 .lt {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  color: #588e68;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #588e68;
 }
 
 .input {
-  display: grid;
-  grid-template-columns: 2.2em auto;
+    display: grid;
+    grid-template-columns: 2.2em auto;
 }
 
-  .page {
+.page {
     position: relative;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     border-top-left-radius: 6px;
@@ -57,32 +57,32 @@ pre {
     width: 800px;
     margin: auto;
     top: 50px;
-  }
-  .page .titlebar {
+}
+.page .titlebar {
     background-color: #ededed;
     height: 44px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     padding: 16px;
     box-sizing: border-box;
-  }
-  .page .titlebar .dot {
+}
+.page .titlebar .dot {
     width: 12px;
     height: 12px;
     background-color: #ccc;
     display: inline-block;
     border-radius: 50%;
-  }
-  .page .titlebar .dot.close {
+}
+.page .titlebar .dot.close {
     background-color: #ef6866;
-  }
-  .page .titlebar .dot.minimise {
+}
+.page .titlebar .dot.minimise {
     background-color: #f5ed49;
-  }
-  .page .titlebar .dot.maximise {
+}
+.page .titlebar .dot.maximise {
     background-color: #89c665;
-  }
-  .page .titlebar .dot + .dot {
+}
+.page .titlebar .dot + .dot {
     margin-left: 7px;
-  }
+}
   
